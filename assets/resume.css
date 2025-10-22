@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: white;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.resume-header {
+  background-color: cyan;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.resume-content {
+  border: 1px solid black;
+  padding: 20px;
+  max-width: 900px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.resume-content p {
+  margin-bottom: 15px;
+}
+
+.resume-icon {
+  position: absolute;
+  left: -120px; /* adjust as needed */
+  top: 0;
+}
+
+.resume-icon img {
+  width: 100px;
+  height: auto;
+}

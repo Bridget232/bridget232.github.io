@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: white;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.about-header {
+  background-color: cyan;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.about-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-content {
+  border: 1px solid black;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ✅ FIXED: remove absolute positioning so it doesn’t overlap text */
+.about-image {
+  margin-top: 20px;        /* space between text and image */
+  align-self: center;      /* center image horizontally */
+}
+
+.about-image img {
+  width: 180px;
+  height: auto;
+  display: block;
+}
